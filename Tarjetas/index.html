@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tarjetas digitales NFC / QR | Jos.IA</title>
+  <meta name="description" content="Más que una tarjeta, una conexión. Tarjetas digitales NFC y QR modernas, seguras y personalizables para profesionales, negocios y creadores.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Tarjetas digitales NFC / QR | Jos.IA">
+  <meta property="og:description" content="Más que una tarjeta, una conexión. Comparte tu información en segundos con tarjetas NFC y QR personalizables.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Geist:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/hero-tarjeta.webp" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- sprite:start -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-nfc" viewBox="0 0 24 24"><path d="M6 8.32a7.43 7.43 0 0 1 0 7.36"/><path d="M9.46 6.21a11.76 11.76 0 0 1 0 11.58"/><path d="M12.91 4.1a15.91 15.91 0 0 1 .01 15.8"/><path d="M16.37 2a20.16 20.16 0 0 1 0 20"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2 2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12a2 2 0 0 1-2-2V7"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".6" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".6" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".6" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".6" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></symbol>
+    <symbol id="i-infinity" viewBox="0 0 24 24"><path d="M6 16c5 0 7-8 12-8a4 4 0 0 1 0 8c-5 0-7-8-12-8a4 4 0 1 0 0 8"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+  </svg>
+  <!-- sprite:end -->
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Jos.IA, ir al inicio">
+        <img class="brand__mark" src="assets/img/logo-blanco.png" alt="" width="58" height="58">
+        <span class="wordmark">Jos.IA</span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal" data-nav>
+        <ul class="nav__list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../index.html#servicios">Servicios</a></li>
+          <li><a href="#tarjetas" aria-current="page">Tarjetas</a></li>
+          <li><a href="../index.html#portafolio">Portafolio</a></li>
+          <li><a href="../index.html#precios">Precios</a></li>
+          <li><a href="../index.html#contacto">Contacto</a></li>
+          <li class="nav__cta-mobile">
+            <a class="btn btn--light btn--lg" href="../index.html#contacto">Solicitar proyecto
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--light header__cta" href="../index.html#contacto">Solicitar proyecto
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú" data-nav-toggle>
+        <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="kicker" data-reveal>Tarjetas digitales NFC / QR</p>
+          <h1 id="hero-title" class="display" data-reveal style="--i:1">
+            <span class="line">Más que una tarjeta,</span>
+            <span class="line muted">una conexión.</span>
+          </h1>
+          <p class="lede" data-reveal style="--i:2">Lleva tu información al siguiente nivel con tarjetas digitales modernas, seguras y personalizables, ideal para profesionales, negocios y creadores.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--light btn--lg" href="#tarjetas">Ver tarjetas
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost btn--lg" href="#como-funciona">Cómo funcionan</a>
+          </div>
+        </div>
+
+        <div class="hero__stage" data-reveal style="--i:2">
+          <img class="hero__img" src="assets/img/hero-tarjeta.webp" width="928" height="1152"
+               alt="Tarjeta NFC negra de Jos.IA con el pulpo blanco y un código QR, apoyada sobre una roca oscura" fetchpriority="high" decoding="async">
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="strip" data-reveal style="--i:3">
+          <li class="strip__item">
+            <span class="strip__icon"><svg class="icon" aria-hidden="true"><use href="#i-nfc"/></svg></span>
+            <span><strong>Tecnología NFC / QR</strong><small>Fácil en cualquier celular</small></span>
+          </li>
+          <li class="strip__item">
+            <span class="strip__icon"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg></span>
+            <span><strong>Diseño personalizado</strong><small>Tu marca, tu estilo</small></span>
+          </li>
+          <li class="strip__item">
+            <span class="strip__icon"><svg class="icon" aria-hidden="true"><use href="#i-shield"/></svg></span>
+            <span><strong>Segura y confiable</strong><small>Tus datos siempre protegidos</small></span>
+          </li>
+          <li class="strip__item">
+            <span class="strip__icon"><svg class="icon" aria-hidden="true"><use href="#i-store"/></svg></span>
+            <span><strong>Ideal para negocios</strong><small>Conéctate con tu audiencia</small></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ MODELOS ============ -->
+    <section class="models" id="tarjetas" aria-labelledby="models-title">
+      <div class="container models__grid">
+        <div class="models__copy">
+          <p class="kicker" data-reveal>Nuestras tarjetas</p>
+          <h2 id="models-title" class="title" data-reveal style="--i:1">Encuentra la que va con tu estilo.</h2>
+          <p class="lede" data-reveal style="--i:2">Diferentes modelos, acabados y colores. Todas con la misma tecnología, infinitas posibilidades.</p>
+
+          <ul class="perks">
+            <li class="perk" data-reveal style="--i:3">
+              <svg class="icon perk__icon" aria-hidden="true"><use href="#i-palette"/></svg>
+              <span><strong>Diseños exclusivos</strong><small>Minimalistas, elegantes y modernos.</small></span>
+            </li>
+            <li class="perk" data-reveal style="--i:4">
+              <svg class="icon perk__icon" aria-hidden="true"><use href="#i-shield"/></svg>
+              <span><strong>Materiales de alta calidad</strong><small>Resistentes y duraderos.</small></span>
+            </li>
+            <li class="perk" data-reveal style="--i:5">
+              <svg class="icon perk__icon" aria-hidden="true"><use href="#i-infinity"/></svg>
+              <span><strong>Personalización total</strong><small>Tu marca, tu estilo, sin límites.</small></span>
+            </li>
+          </ul>
+
+          <div class="actions" data-reveal style="--i:6">
+            <a class="btn btn--dark btn--lg" href="../index.html#precios">Ver todos los modelos y precios
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--ghost-dark btn--lg" href="#como-funciona">Cómo funciona</a>
+          </div>
+        </div>
+
+        <div class="models__stage" data-reveal style="--i:2">
+          <div class="models__board">
+            <img class="models__img" src="assets/img/modelos.webp" width="1024" height="1024" loading="lazy" decoding="async"
+                 alt="Tres modelos de tarjeta NFC de Jos.IA: clásica negra, clásica blanca y de aluminio cepillado">
+          </div>
+
+          <ul class="callouts" aria-label="Modelos disponibles">
+            <li class="callout callout--left callout--black"><span class="callout__pill">Clásica Negra</span><span class="callout__line"></span><span class="callout__dot"></span></li>
+            <li class="callout callout--right callout--white"><span class="callout__dot"></span><span class="callout__line"></span><span class="callout__pill">Clásica Blanca</span></li>
+            <li class="callout callout--left callout--alu"><span class="callout__pill callout__pill--dark">Aluminio cepillado</span><span class="callout__line"></span><span class="callout__dot"></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MUNDO DIGITAL ============ -->
+    <section class="world" id="como-funciona" aria-labelledby="world-title">
+      <div class="world__bg" aria-hidden="true"></div>
+      <div class="container world__grid">
+        <div class="world__copy">
+          <p class="kicker" data-reveal>Tu marca, en un solo lugar</p>
+          <h2 id="world-title" class="title" data-reveal style="--i:1"><span class="line">Tu mundo digital,</span> <span class="line muted">siempre a la mano.</span></h2>
+          <p class="lede" data-reveal style="--i:2">Comparte tu información profesional y personal en segundos, sin complicaciones.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--light btn--lg" href="../index.html#servicios">Ver servicios
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <div class="world__phone" data-reveal style="--i:2">
+          <img class="world__img" src="assets/img/celular.webp" width="768" height="1376" loading="lazy" decoding="async"
+               alt="Mano sosteniendo un celular que muestra la tarjeta digital de Jos.IA con un código QR">
+        </div>
+
+        <ul class="world__list">
+          <li class="world__item" data-reveal style="--i:2">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></span>
+            <span><strong>Redes sociales</strong><small>Instagram, LinkedIn y más.</small></span>
+          </li>
+          <li class="world__item" data-reveal style="--i:3">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-grid"/></svg></span>
+            <span><strong>Catálogo / Portafolio</strong><small>Todo en un solo lugar.</small></span>
+          </li>
+          <li class="world__item" data-reveal style="--i:4">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+            <span><strong>Contacto</strong><small>Llamadas, correo y chat.</small></span>
+          </li>
+          <li class="world__item" data-reveal style="--i:5">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+            <span><strong>Ubicación</strong><small>Abre Google Maps.</small></span>
+          </li>
+          <li class="world__item" data-reveal style="--i:6">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-calendar"/></svg></span>
+            <span><strong>Reservas</strong><small>Agenda citas sin vueltas.</small></span>
+          </li>
+          <li class="world__item" data-reveal style="--i:7">
+            <span class="round"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg></span>
+            <span><strong>Y más…</strong><small>Lo que necesites.</small></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="../index.html" aria-label="Jos.IA, ir al inicio">
+          <img class="brand__mark" src="assets/img/logo-blanco.png" alt="" width="58" height="58">
+          <span class="wordmark">Jos.IA</span>
+        </a>
+        <p>Tu idea, en software.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Pie de página">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../index.html#servicios">Servicios</a></li>
+          <li><a href="#tarjetas">Tarjetas</a></li>
+          <li><a href="../index.html#portafolio">Portafolio</a></li>
+          <li><a href="../index.html#precios">Precios</a></li>
+          <li><a href="../index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social" aria-label="Redes sociales">
+        <li><a href="https://www.instagram.com/" aria-label="Instagram de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/" aria-label="LinkedIn de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+        <li><a href="https://www.youtube.com/" aria-label="YouTube de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+      </ul>
+
+      <p class="signature">
+        <span>El futuro también se construye con buenas ideas.</span>
+        <svg viewBox="0 0 160 24" aria-hidden="true" focusable="false"><path d="M2 20C30 20 62 14 96 9c20-3 42-5 62-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </p>
+    </div>
+
+    <div class="container footer__legal">
+      <p>© 2026 Jos.IA. Todos los derechos reservados.</p>
+      <ul>
+        <li><a href="../index.html#privacidad">Aviso de privacidad</a></li>
+        <li><a href="../index.html#terminos">Términos y condiciones</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
