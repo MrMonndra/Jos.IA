@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chatbots inteligentes | Jos.IA</title>
+  <meta name="description" content="Automatiza la atención de tu negocio con chatbots inteligentes: responden, guían a tus clientes, generan leads y venden, las 24 horas.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Chatbots inteligentes | Jos.IA">
+  <meta property="og:description" content="Responde preguntas, guía a los clientes, genera leads y vende, todo de forma automática.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- sprite:start -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-arrow-ur" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="m19 9-5 5-4-4-3 3"/></symbol>
+    <symbol id="i-headset" viewBox="0 0 24 24"><path d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"/><path d="M21 16v2a4 4 0 0 1-4 4h-5"/></symbol>
+    <symbol id="i-funnel" viewBox="0 0 24 24"><path d="M10 20a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341L21.74 4.67A1 1 0 0 0 21 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14z"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"/><path d="M22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-chat-dots" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></symbol>
+    <symbol id="i-chevron-l" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-checks" viewBox="0 0 24 24"><path d="M18 6 7 17l-5-5"/><path d="m22 10-7.5 7.5L13 16"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+  </svg>
+  <!-- sprite:end -->
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Jos.IA, ir al inicio">
+        <img class="brand__mark" src="assets/img/logo-negro.png" alt="" width="72" height="72">
+        <span class="wordmark">Jos.IA</span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal" data-nav>
+        <ul class="nav__list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../index.html#servicios" aria-current="true">Servicios</a></li>
+          <li><a href="../Tarjetas/pagTarjetas.html">Tarjetas</a></li>
+          <li><a href="../index.html#portafolio">Portafolio</a></li>
+          <li><a href="../index.html#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li class="nav__cta-mobile">
+            <a class="btn btn--dark btn--lg" href="../index.html#contacto">Solicitar proyecto
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--dark header__cta" href="../index.html#contacto">Solicitar proyecto
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú" data-nav-toggle>
+        <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="crumb" data-reveal>Chatbots <span aria-hidden="true">/</span></p>
+          <h1 id="hero-title" class="display" data-reveal style="--i:1">
+            <span class="line">Automatiza la atención</span>
+            <span class="line">de tu negocio con</span>
+            <span class="line">chatbots inteligentes.</span>
+          </h1>
+          <p class="lede" data-reveal style="--i:2">Responde preguntas, guía a los clientes, genera leads y vende, todo de forma automática. Nuestros chatbots están diseñados para ser fáciles de usar, personalizados y efectivos.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--dark btn--lg" href="../index.html#precios">Ver planes y precios
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--outline btn--lg" href="#demo">Ver ejemplos</a>
+          </div>
+        </div>
+
+        <!--
+          IMAGEN FUTURA: este bloque (celular + burbujas) está hecho solo con código.
+          Para sustituirlo por una imagen, reemplaza el contenido de .hero__stage por
+          <img src="assets/img/hero-chatbot.webp" width="1100" height="900" alt="..." fetchpriority="high">
+        -->
+        <div class="hero__stage" role="img" aria-label="Celular mostrando una conversación con Jos.IA Bot, con indicadores de disponibilidad 24/7 y más ventas" data-reveal style="--i:2">
+          <div class="phone" aria-hidden="true">
+            <div class="phone__frame">
+              <div class="phone__screen">
+                <span class="phone__island"></span>
+
+                <div class="phone__status">
+                  <span class="phone__time">9:41</span>
+                  <span class="phone__sys">
+                    <svg viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx=".8"/><rect x="5" y="5.5" width="3" height="6.5" rx=".8"/><rect x="10" y="3" width="3" height="9" rx=".8"/><rect x="15" y="0" width="3" height="12" rx=".8"/></svg>
+                    <svg viewBox="0 0 16 12" fill="currentColor"><path d="M8 11.2 5.9 9a3 3 0 0 1 4.2 0z"/><path d="M3.3 6.3a6.5 6.5 0 0 1 9.4 0l-1.4 1.4a4.5 4.5 0 0 0-6.6 0z"/><path d="M.6 3.5a10.4 10.4 0 0 1 14.8 0l-1.4 1.4a8.4 8.4 0 0 0-12 0z"/></svg>
+                    <svg viewBox="0 0 26 12" fill="currentColor"><rect x=".5" y=".5" width="22" height="11" rx="3.2" fill="none" stroke="currentColor" opacity=".5"/><rect x="2" y="2" width="19" height="8" rx="2"/><rect x="24" y="4" width="1.6" height="4" rx=".8" opacity=".5"/></svg>
+                  </span>
+                </div>
+
+                <div class="phone__head">
+                  <svg class="icon phone__back"><use href="#i-chevron-l"/></svg>
+                  <span class="avatar avatar--phone"><img src="assets/img/logo-blanco.png" alt="" width="64" height="64"></span>
+                  <span class="phone__who"><strong>Jos.IA Bot</strong><small>En línea</small></span>
+                  <span class="phone__dots"><i></i><i></i><i></i><i></i><i></i></span>
+                </div>
+
+                <div class="phone__chat">
+                  <p class="msg msg--bot">¡Hola! 👋 Soy el asistente virtual de Jos.IA. ¿En qué puedo ayudarte hoy?</p>
+                  <div class="msg msg--bot msg--opts">
+                    <span class="opt">Ver catálogo</span>
+                    <span class="opt">Horarios y asesorías</span>
+                    <span class="opt">Hacer un pedido</span>
+                    <span class="opt">Hablar con un asesor</span>
+                  </div>
+                  <p class="msg msg--user">Quiero ver el catálogo <time>9:42</time></p>
+                  <p class="msg msg--bot msg--typing"><i></i><i></i><i></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="float float--status" aria-hidden="true">
+            <p class="float__title"><span class="live-dot"></span>Disponible 24/7</p>
+            <p class="float__text">Siempre listo para atender a tus clientes.</p>
+          </div>
+
+          <div class="float float--sales" aria-hidden="true">
+            <span class="float__icon"><svg class="icon"><use href="#i-chat-dots"/></svg></span>
+            <p class="float__body">
+              <strong class="float__title">Más ventas</strong>
+              <span class="float__text">Mejores clientes</span>
+              <span class="float__text">Menos trabajo manual</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CINTILLO DE CARACTERÍSTICAS ============ -->
+    <section class="features" aria-label="Características principales">
+      <div class="container">
+        <ul class="features__list">
+          <li class="feature" data-reveal>
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+            <span><strong>Atención 24/7</strong><small>Siempre disponible</small></span>
+          </li>
+          <li class="feature" data-reveal style="--i:1">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-zap"/></svg></span>
+            <span><strong>Respuestas instantáneas</strong><small>Ahorra tiempo y recursos</small></span>
+          </li>
+          <li class="feature" data-reveal style="--i:2">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-link"/></svg></span>
+            <span><strong>Integración fácil</strong><small>Con tu sitio web, WhatsApp o redes</small></span>
+          </li>
+          <li class="feature" data-reveal style="--i:3">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg></span>
+            <span><strong>Personalización total</strong><small>Adaptado a tu marca y necesidades</small></span>
+          </li>
+          <li class="feature" data-reveal style="--i:4">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span>
+            <span><strong>Análisis y reportes</strong><small>Mide y mejora tus resultados</small></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOLUCIONES ============ -->
+    <section class="solutions" id="chatbots" aria-labelledby="solutions-title">
+      <div class="container solutions__grid">
+        <div class="solutions__copy">
+          <p class="kicker" data-reveal>Nuestros chatbots</p>
+          <h2 id="solutions-title" class="title" data-reveal style="--i:1">Soluciones que se adaptan a tu negocio.</h2>
+          <p class="lede" data-reveal style="--i:2">Desde atención al cliente hasta ventas, nuestros chatbots pueden integrarse en diferentes canales y sectores. Tú eliges el objetivo, nosotros lo hacemos realidad.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--outline-light btn--lg" href="../index.html#servicios">Ver todos los chatbots
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ul class="cards">
+          <li class="card" data-reveal>
+            <span class="ring ring--lg"><svg class="icon" aria-hidden="true"><use href="#i-headset"/></svg></span>
+            <h3>Atención al cliente</h3>
+            <p>Resuelve dudas frecuentes y mejora la experiencia de tus usuarios.</p>
+            <a class="btn btn--outline-light btn--sm" href="#demo" aria-label="Ver ejemplo de chatbot de atención al cliente">Ver ejemplo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="card" data-reveal style="--i:1">
+            <span class="ring ring--lg"><svg class="icon" aria-hidden="true"><use href="#i-funnel"/></svg></span>
+            <h3>Ventas y leads</h3>
+            <p>Capta clientes, aumenta tus ventas y mejora tus conversiones.</p>
+            <a class="btn btn--outline-light btn--sm" href="#demo" aria-label="Ver ejemplo de chatbot de ventas y leads">Ver ejemplo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="card" data-reveal style="--i:2">
+            <span class="ring ring--lg"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span>
+            <h3>Soporte técnico</h3>
+            <p>Guía a tus clientes paso a paso y reduce la carga de tu equipo.</p>
+            <a class="btn btn--outline-light btn--sm" href="#demo" aria-label="Ver ejemplo de chatbot de soporte técnico">Ver ejemplo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="card" data-reveal style="--i:3">
+            <span class="ring ring--lg"><svg class="icon" aria-hidden="true"><use href="#i-cap"/></svg></span>
+            <h3>Educación y cursos</h3>
+            <p>Brinda información, resuelve dudas y acompaña a tus estudiantes.</p>
+            <a class="btn btn--outline-light btn--sm" href="#demo" aria-label="Ver ejemplo de chatbot de educación y cursos">Ver ejemplo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+          <li class="card" data-reveal style="--i:4">
+            <span class="ring ring--lg"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <h3>Interno / RR. HH.</h3>
+            <p>Automatiza procesos, resuelve dudas del personal y mejora la comunicación.</p>
+            <a class="btn btn--outline-light btn--sm" href="#demo" aria-label="Ver ejemplo de chatbot interno y de recursos humanos">Ver ejemplo
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CÓMO FUNCIONA + RESULTADOS ============ -->
+    <section class="proof" aria-label="Cómo funciona y resultados">
+      <div class="container proof__grid">
+
+        <!-- Cómo funciona -->
+        <div class="how" id="como-funciona" aria-labelledby="how-title">
+          <div class="how__body">
+            <div class="how__copy">
+              <p class="kicker" data-reveal>Tu chatbot, en acción</p>
+              <h2 id="how-title" class="title title--sm" data-reveal style="--i:1">Así es como funciona.</h2>
+              <p class="lede" data-reveal style="--i:2">Un chatbot inteligente que entiende, responde y convierte. Fácil de implementar, sin complicaciones.</p>
+
+              <ol class="steps">
+                <li class="step" data-reveal style="--i:2">
+                  <span class="step__num" aria-hidden="true">1</span>
+                  <span><strong>Lo configuras</strong><small>Nos dices qué necesita tu negocio.</small></span>
+                </li>
+                <li class="step" data-reveal style="--i:3">
+                  <span class="step__num" aria-hidden="true">2</span>
+                  <span><strong>Lo personalizamos</strong><small>Adaptamos el tono, respuestas y flujos.</small></span>
+                </li>
+                <li class="step" data-reveal style="--i:4">
+                  <span class="step__num" aria-hidden="true">3</span>
+                  <span><strong>Lo implementamos</strong><small>En tu web, WhatsApp o redes sociales.</small></span>
+                </li>
+                <li class="step" data-reveal style="--i:5">
+                  <span class="step__num" aria-hidden="true">4</span>
+                  <span><strong>Empiezas a ver resultados</strong><small>Más clientes, menos trabajo manual.</small></span>
+                </li>
+              </ol>
+            </div>
+
+            <figure class="widget" id="demo" data-reveal style="--i:2" aria-label="Ejemplo de conversación con un asistente virtual">
+              <div class="widget__head">
+                <span class="avatar avatar--widget"><img src="assets/img/logo-blanco.png" alt="" width="64" height="64"></span>
+                <span class="widget__who"><strong>Tu asistente virtual</strong><small><span class="live-dot"></span>En línea</small></span>
+                <svg class="icon widget__close" aria-hidden="true"><use href="#i-x"/></svg>
+              </div>
+
+              <div class="widget__chat">
+                <p class="msg msg--user">Hola, ¿ofrecen servicio a domicilio? <span class="msg__meta"><time>9:41</time><svg class="icon" aria-hidden="true"><use href="#i-checks"/></svg></span></p>
+
+                <div class="widget__reply">
+                  <span class="avatar avatar--mini"><img src="assets/img/logo-blanco.png" alt="" width="64" height="64"></span>
+                  <div class="msg msg--bot msg--reply">
+                    <p>Sí, contamos con envío a toda la ciudad. ¿Te gustaría ver el menú o hacer un pedido ahora?</p>
+                    <span class="chips"><span class="chip">Ver menú</span><span class="chip">Hacer pedido</span></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="widget__input" aria-hidden="true">
+                <span>Escribe un mensaje...</span>
+                <span class="send"><svg class="icon"><use href="#i-arrow"/></svg></span>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Resultados -->
+        <div class="results" id="resultados" aria-labelledby="results-title">
+          <div class="results__body">
+            <div class="results__copy">
+              <p class="kicker" data-reveal>Lo que dicen nuestros clientes</p>
+              <h2 id="results-title" class="title title--sm" data-reveal style="--i:1">Resultados que hablan por sí solos.</h2>
+              <p class="lede" data-reveal style="--i:2">Empresas y emprendedores que usan nuestros chatbots han mejorado su atención, aumentado sus ventas y optimizado su tiempo.</p>
+
+              <figure class="quote" data-reveal style="--i:3">
+                <svg class="quote__mark" aria-hidden="true"><use href="#i-quote"/></svg>
+                <blockquote>
+                  <p>El chatbot nos ha ayudado a responder mensajes de manera ágil. Nuestros clientes <strong>ahora reciben atención inmediata y se nota en las ventas.</strong></p>
+                </blockquote>
+                <figcaption class="quote__by">
+                  <!-- IMAGEN FUTURA: reemplazar las iniciales por <img src="assets/img/maria-lopez.webp" alt="" width="96" height="96"> -->
+                  <span class="avatar avatar--person" aria-hidden="true">ML</span>
+                  <span><strong>María López</strong><small>Gerente de tienda en línea</small></span>
+                  <a class="round-btn" href="#contacto" aria-label="Quiero resultados como estos, ir a contacto">
+                    <svg class="icon" aria-hidden="true"><use href="#i-arrow-ur"/></svg>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+
+            <ul class="stats" aria-label="Resultados destacados">
+              <li class="stat" data-reveal style="--i:2">
+                <span class="ring ring--light"><svg class="icon" aria-hidden="true"><use href="#i-check-circle"/></svg></span>
+                <span><strong>+80%</strong><small>resolución de consultas</small></span>
+              </li>
+              <li class="stat" data-reveal style="--i:3">
+                <span class="ring ring--light"><svg class="icon" aria-hidden="true"><use href="#i-trend"/></svg></span>
+                <span><strong>+60%</strong><small>aumento en contactos</small></span>
+              </li>
+              <li class="stat" data-reveal style="--i:4">
+                <span class="ring ring--light"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></span>
+                <span><strong>24/7</strong><small>atención automática</small></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CTA + FOOTER ============ -->
+  <footer class="site-footer" id="contacto">
+    <div class="footer__bg" aria-hidden="true"></div>
+
+    <div class="container cta">
+      <a class="brand brand--footer" href="../index.html" aria-label="Jos.IA, ir al inicio">
+        <img class="brand__mark" src="assets/img/logo-blanco.png" alt="" width="72" height="72">
+        <span class="wordmark">Jos.IA</span>
+      </a>
+
+      <div class="cta__copy">
+        <h2 class="cta__title">¿Listo para llevar tu atención al cliente al siguiente nivel con un chatbot?</h2>
+        <p>Hablemos de tu proyecto y te ayudamos a elegir la mejor solución para tu negocio.</p>
+      </div>
+
+      <a class="btn btn--light btn--lg cta__btn" href="../index.html#contacto">Solicitar proyecto
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+
+    <div class="legal">
+      <div class="container footer__legal">
+        <p>© 2026 Jos.IA. Todos los derechos reservados.</p>
+        <div class="footer__right">
+          <ul class="legal-links">
+            <li><a href="../index.html#privacidad">Aviso de privacidad</a></li>
+            <li><a href="../index.html#terminos">Términos y condiciones</a></li>
+          </ul>
+          <ul class="social" aria-label="Redes sociales">
+            <li><a href="https://www.instagram.com/" aria-label="Instagram de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/" aria-label="LinkedIn de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <li><a href="https://www.youtube.com/" aria-label="YouTube de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
