@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 480" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="col" x1="0" x2="1"><stop offset="0" stop-color="#e7eaf0" stop-opacity=".0"/><stop offset=".45" stop-color="#dfe3ea" stop-opacity=".85"/><stop offset="1" stop-color="#eceff4" stop-opacity=".2"/></linearGradient>
+    <linearGradient id="colv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".7" stop-color="#fff" stop-opacity="1"/></linearGradient>
+    <linearGradient id="swl" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4d9e1"/><stop offset="1" stop-color="#eef0f4"/></linearGradient>
+    <linearGradient id="swr" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfd4dc"/><stop offset="1" stop-color="#eef0f4"/></linearGradient>
+    <linearGradient id="arch" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity=".35"/></linearGradient>
+  </defs>
+  <!-- columna palida detras de la laptop -->
+  <rect x="418" y="0" width="190" height="250" fill="url(#col)"/>
+  <rect x="418" y="0" width="190" height="250" fill="url(#colv)" opacity=".55"/>
+  <rect x="612" y="0" width="96" height="190" fill="#e9ecf1" opacity=".7"/>
+  <!-- arcos blancos -->
+  <path d="M404 340V200a60 60 0 0 1 120 0v140z" fill="url(#arch)"/>
+  <path d="M440 340V250a38 38 0 0 1 76 0v90z" fill="#dfe3ea" opacity=".55"/>
+  <path d="M868 340c0-92 66-142 156-130v130z" fill="#fff" opacity=".85"/>
+  <path d="M900 340c6-58 42-88 124-84v84z" fill="#e6e9ef" opacity=".8"/>
+  <!-- lineas finas arriba a la derecha -->
+  <g fill="none" stroke="#c5cad3" stroke-width=".8" opacity=".55">
+    <path d="M1024 70c-60 6-120 40-150 96"/><path d="M1024 84c-56 8-110 40-138 92"/><path d="M1024 98c-52 8-100 38-126 88"/><path d="M1024 112c-48 8-92 36-114 84"/>
+  </g>
+  <!-- ondas inferiores -->
+  <path d="M0 322c52 6 98 22 140 52 28 20 56 40 90 66 14 10 28 26 38 40H0z" fill="url(#swl)"/>
+  <path d="M0 352c46 4 82 20 118 44 20 14 40 30 64 44 10 8 20 24 28 40H0z" fill="#fff" opacity=".55"/>
+  <path d="M1024 318c-60 20-112 60-150 122-8 14-14 28-20 40h170z" fill="url(#swr)"/>
+  <path d="M1024 360c-40 18-74 48-98 80-6 14-12 28-16 40h114z" fill="#fff" opacity=".5"/>
+</svg>

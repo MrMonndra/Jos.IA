@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marketing digital para tu negocio | Jos.IA</title>
+  <meta name="description" content="Creamos y gestionamos tu contenido, automatizamos tus redes sociales y aplicamos estrategias de marketing digital para atraer más clientes.">
+  <meta name="theme-color" content="#f3f5f8">
+  <meta property="og:title" content="Marketing digital para tu negocio | Jos.IA">
+  <meta property="og:description" content="Contenido, redes sociales, publicidad y automatización con IA para que tu negocio se vea, conecte y genere más ventas.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="64x64">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__josia)document.documentElement.classList.remove('js')},4000);</script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- =====================================================================
+       SPRITE: iconos de línea, logos de plataformas y avatar provisional.
+
+       IMAGEN FUTURA: assets/img/carlos-mendez.webp (retrato 1:1, 96 px). Reemplazar el
+       <svg><use href="#art-carlos"> del .avatar por un <img> y borrar el símbolo art-carlos.
+       ===================================================================== -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <!-- Iconos de línea -->
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-alarm" viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2"/><path d="M5 3 2 6"/><path d="m22 6-3-3"/><path d="M6.38 18.7 4 21"/><path d="M17.64 18.67 20 21"/></symbol>
+    <symbol id="i-click" viewBox="0 0 24 24"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-report" viewBox="0 0 24 24"><path d="M4 20v-4"/><path d="M9 20v-8"/><path d="M14 20v-6"/><path d="M19 20V8"/><path d="m4 11 5-4 4 3 6-6"/><path d="M15 4h4v4"/></symbol>
+    <symbol id="i-bars" viewBox="0 0 24 24"><path d="M6 20v-5" stroke-width="3.2"/><path d="M12 20V9" stroke-width="3.2"/><path d="M18 20V4" stroke-width="3.2"/></symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z"/><circle cx="12" cy="13" r="3"/></symbol>
+    <symbol id="i-calendar-check" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></symbol>
+    <symbol id="i-megaphone" viewBox="0 0 24 24"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"/><path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14"/><path d="M8 6v8"/></symbol>
+    <symbol id="i-bot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.34-4.34"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></symbol>
+    <symbol id="i-coffee" viewBox="0 0 24 24"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M16 10a4 4 0 0 1-8 0"/><path d="M3.103 6.034h17.794"/><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-building" viewBox="0 0 24 24"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></symbol>
+    <symbol id="i-user-plus" viewBox="0 0 24 24"><path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="M19 16v6"/><path d="M22 19h-6"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.59 13.51 6.83 3.98"/><path d="m15.41 6.51-6.82 3.98"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01"/><path d="M15 9h.01"/></symbol>
+    <symbol id="i-cursor" viewBox="0 0 24 24"><path d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></symbol>
+    <symbol id="i-bookmark" viewBox="0 0 24 24"><path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></symbol>
+
+    <!-- Iconos rellenos -->
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.5-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5Z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M10 5.2C5.6 6.1 3 9.3 3 13.8V19h7.6v-7H7.2c.1-2 1.2-3.4 3.2-4z" fill="currentColor" stroke="none"/><path d="M21 5.2c-4.4.9-7 4.1-7 8.6V19h7.6v-7h-3.4c.1-2 1.2-3.4 3.2-4z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-star-f" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-tiktok" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z" fill="currentColor" stroke="none"/></symbol>
+
+    <!-- Logos de plataformas (versión simplificada) -->
+    <symbol id="logo-meta" viewBox="0 0 24 24"><path d="M12 12c-1.8-2.6-3.3-4.2-5.2-4.2C4.7 7.8 3 9.6 3 12s1.7 4.2 3.8 4.2c1.9 0 3.4-1.6 5.2-4.2s3.3-4.2 5.2-4.2c2.1 0 3.8 1.8 3.8 4.2s-1.7 4.2-3.8 4.2c-1.9 0-3.4-1.6-5.2-4.2z" fill="none" stroke="#0866ff" stroke-width="2.5" stroke-linejoin="round"/></symbol>
+    <symbol id="logo-google" viewBox="0 0 24 24"><path fill="#4285F4" d="M23.49 12.27c0-.79-.07-1.54-.19-2.27H12v4.51h6.47c-.29 1.48-1.14 2.73-2.4 3.58v3h3.86c2.26-2.09 3.56-5.17 3.56-8.82z"/><path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.86-3c-1.08.72-2.45 1.16-4.07 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09C3.26 21.3 7.31 24 12 24z"/><path fill="#FBBC05" d="M5.27 14.29c-.25-.72-.38-1.49-.38-2.29s.14-1.57.38-2.29V6.62H1.29C.47 8.24 0 10.06 0 12s.47 3.76 1.29 5.38l3.98-3.09z"/><path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.31 0 3.26 2.7 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75z"/></symbol>
+    <symbol id="logo-tiktok" viewBox="0 0 24 24">
+      <use href="#i-tiktok" x="-.7" y="-.7" width="24" height="24" style="color:#25f4ee"/>
+      <use href="#i-tiktok" x=".7" y=".7" width="24" height="24" style="color:#fe2c55"/>
+      <use href="#i-tiktok" width="24" height="24" style="color:#111216"/>
+    </symbol>
+
+    <!-- ===== Arte provisional de las fotos (se reemplaza por las imágenes de arriba) ===== -->
+    <!-- Retrato del testimonio (carlos-mendez.webp) -->
+    <symbol id="art-carlos" viewBox="0 0 60 60" preserveAspectRatio="xMidYMid slice">
+      <rect width="60" height="60" fill="#6d7178"/>
+      <path d="M4 60c0-13 11-20 26-20s26 7 26 20z" fill="#1b1e26"/>
+      <path d="M23 40l7 9 7-9z" fill="#f2f2f0"/><path d="M28 41l2 14 2-14z" fill="#8a1f2b"/>
+      <ellipse cx="30" cy="25" rx="9.5" ry="12" fill="#d1a384"/>
+      <path d="M20 22c0-9 5-13 11-13 6 0 10 4 9 13-2-4-5-6-9-6s-8 2-11 6z" fill="#1f1713"/>
+      <path d="M21 28c1 8 4 12 9 12s8-4 9-12c-3 3-5 4-9 4s-6-1-9-4z" fill="#2c211b"/>
+    </symbol>
+  </svg>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Jos.IA, ir al inicio">
+        <img class="brand__mark" src="assets/img/logo-negro.png" alt="" width="72" height="72">
+        <span class="wordmark">Jos.IA</span>
+      </a>
+
+      <nav class="nav" id="menu" aria-label="Principal" data-nav>
+        <ul class="nav__list">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="#soluciones">Servicios</a></li>
+          <li><a href="#inicio" aria-current="page">Marketing</a></li>
+          <li><a href="#accion">Portafolio</a></li>
+          <li><a href="../index.html#precios">Precios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li class="nav__cta-mobile">
+            <a class="btn btn--dark btn--lg" href="#contacto">Solicitar proyecto
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--dark header__cta" href="#contacto">Solicitar proyecto
+        <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú" data-nav-toggle>
+        <span class="nav-toggle__bars" aria-hidden="true"><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ============ HERO (claro) ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="crumb" data-reveal>Marketing digital <span aria-hidden="true">/</span></p>
+          <h1 id="hero-title" class="display" data-reveal style="--i:1">
+            <span class="line">Haz que tu negocio</span>
+            <span class="line">se vea, conecte y</span>
+            <span class="line">genere más ventas.</span>
+          </h1>
+          <p class="lede" data-reveal style="--i:2">
+            <span class="line">Creamos y gestionamos tu contenido, automatizamos</span>
+            <span class="line">tus redes sociales y aplicamos estrategias de marketing</span>
+            <span class="line">digital para atraer más clientes, mientras tú te enfocas</span>
+            <span class="line">en lo más importante: tu negocio.</span>
+          </p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--dark btn--lg" href="../index.html#precios">Ver planes y precios
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="btn btn--soft btn--lg" href="#soluciones">Conocer servicios</a>
+          </div>
+        </div>
+
+        <!-- Composición del hero. Unidad de diseño: 1 u = 1 px del mockup (lienzo de 640 × 328).
+             Cada pieza se coloca con --x/--y (centro), --w/--h y --r; ver .stage en el CSS. -->
+        <div class="hero__stage">
+          <div class="stage">
+            <div class="stage__art">
+             <div class="canvas">
+
+              <!-- Teléfono con el perfil de Instagram de "La Terraza" (imagen real con fondo transparente) -->
+              <div class="phone" data-reveal style="--x:151;--y:160;--w:150;--h:344;--r:0deg">
+                <img class="phone__svg" src="assets/img/hero-telefono.webp" width="652" height="1500" alt="Teléfono mostrando el perfil de Instagram de La Terraza, un restaurante, con fotos de platillos y café" fetchpriority="high">
+              </div>
+
+              <!-- Nota manuscrita + flecha -->
+              <p class="note" aria-hidden="true" data-reveal style="--x:292;--y:30;--r:-13deg;--i:3">Contenido<br>que atrae<br>clientes</p>
+              <svg class="note-arrow" aria-hidden="true" viewBox="0 0 46 40" data-reveal style="--x:277;--y:84;--w:46;--h:40;--i:4"><path d="M41 3C28 6 15 15 6 31"/><path d="M5 31l1.5-9.5M5 31l10-1.6"/></svg>
+
+              <!-- Collage de fotos (decorativo) -->
+              <figure class="photo" aria-hidden="true" data-reveal style="--x:329;--y:204;--w:179;--h:157;--r:-3deg;--z:1;--i:2">
+                <img src="assets/img/hero-restaurante.webp" width="900" height="787" alt="" loading="eager" decoding="async">
+              </figure>
+              <figure class="photo" aria-hidden="true" data-reveal style="--x:343.5;--y:121.7;--w:110;--h:114.5;--r:-8deg;--z:2;--i:3">
+                <img src="assets/img/hero-platillo.webp" width="800" height="800" alt="" decoding="async">
+              </figure>
+              <figure class="photo" aria-hidden="true" data-reveal style="--x:366;--y:267.5;--w:115;--h:99;--r:-2deg;--z:3;--i:4">
+                <img src="assets/img/hero-cafe.webp" width="900" height="771" alt="" decoding="async">
+              </figure>
+
+              <p class="chip" aria-hidden="true" data-reveal style="--x:378.5;--y:159;--i:5"><svg class="icon chip__heart"><use href="#i-heart"/></svg>1.2K</p>
+              <p class="chip" aria-hidden="true" data-reveal style="--x:397;--y:301.5;--i:6"><svg class="icon"><use href="#i-chat"/></svg>324</p>
+             </div>
+
+            <ul class="floaters" aria-label="Resultados de campañas de ejemplo">
+              <li class="fcard" data-reveal style="--x:518;--y:45.5;--w:194;--h:97;--r:-4deg;--i:2">
+                <span class="fcard__logo"><svg class="logo" aria-hidden="true"><use href="#logo-meta"/></svg></span>
+                <div class="fcard__body">
+                  <p class="fcard__name">Campaña en Meta</p>
+                  <p class="fcard__num">+150%</p>
+                  <p class="fcard__lbl">más alcance</p>
+                </div>
+                <span class="badge">Activa</span>
+                <svg class="spark" viewBox="0 0 50 42" aria-hidden="true"><path class="spark__bars" d="M8 40V30M18 40V25M31 40V17M44 40V9"/><polyline points="2,33 9,27 14,30 22,20 28,22 38,10 46,4"/><circle cx="46" cy="4" r="2.4"/></svg>
+              </li>
+              <li class="fcard" data-reveal style="--x:524;--y:141;--w:194;--h:97;--r:-2deg;--i:3">
+                <span class="fcard__logo"><svg class="logo" aria-hidden="true"><use href="#logo-google"/></svg></span>
+                <div class="fcard__body">
+                  <p class="fcard__name">Anuncio en Google</p>
+                  <p class="fcard__num">+80%</p>
+                  <p class="fcard__lbl">más clientes</p>
+                </div>
+                <span class="badge">Activa</span>
+                <svg class="spark" viewBox="0 0 50 42" aria-hidden="true"><path class="spark__bars" d="M8 40V32M18 40V30M31 40V22M44 40V10"/><polyline points="2,34 10,30 15,31 24,24 30,26 38,13 46,5"/><circle cx="46" cy="5" r="2.4"/></svg>
+              </li>
+              <li class="fcard" data-reveal style="--x:528.5;--y:240;--w:188;--h:97;--r:-1deg;--i:4">
+                <span class="fcard__logo"><svg class="logo" aria-hidden="true"><use href="#logo-tiktok"/></svg></span>
+                <div class="fcard__body">
+                  <p class="fcard__name">Publicación en TikTok</p>
+                  <p class="fcard__num">+200%</p>
+                  <p class="fcard__lbl">más interacciones</p>
+                </div>
+                <span class="badge">Activa</span>
+                <svg class="spark" viewBox="0 0 50 42" aria-hidden="true"><path class="spark__bars" d="M8 40V31M18 40V27M31 40V20M44 40V8"/><polyline points="2,33 8,30 15,28 22,22 29,24 38,12 46,4"/><circle cx="46" cy="4" r="2.4"/></svg>
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cintillo de beneficios -->
+      <div class="container benefits-wrap">
+        <ul class="benefits" aria-label="Beneficios de tener marketing digital profesional" data-reveal>
+          <li class="benefit">
+            <span class="benefit__ico"><svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg></span>
+            <span class="benefit__txt"><strong>Más visibilidad</strong><small>para tu negocio</small></span>
+          </li>
+          <li class="benefit">
+            <span class="benefit__ico"><svg class="icon" aria-hidden="true"><use href="#i-alarm"/></svg></span>
+            <span class="benefit__txt"><strong>Contenido de calidad</strong><small>fotos, videos y diseño</small></span>
+          </li>
+          <li class="benefit">
+            <span class="benefit__ico"><svg class="icon" aria-hidden="true"><use href="#i-click"/></svg></span>
+            <span class="benefit__txt"><strong>Automatización</strong><small>de publicaciones y respuestas</small></span>
+          </li>
+          <li class="benefit">
+            <span class="benefit__ico"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <span class="benefit__txt"><strong>Crecimiento real</strong><small>más clientes y ventas</small></span>
+          </li>
+          <li class="benefit">
+            <span class="benefit__ico"><svg class="icon" aria-hidden="true"><use href="#i-report"/></svg></span>
+            <span class="benefit__txt"><strong>Reportes claros</strong><small>resultados medibles</small></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SOLUCIONES (oscuro) ============ -->
+    <div class="panel-section">
+      <section class="panel solutions" id="soluciones" aria-labelledby="sol-title">
+        <div class="panel__waves" aria-hidden="true"></div>
+        <div class="solutions__copy">
+          <p class="crumb crumb--light" data-reveal>Soluciones de marketing</p>
+          <h2 id="sol-title" class="title title--light" data-reveal style="--i:1"><span class="line">Estrategias que se</span> <span class="line">adaptan a tu negocio.</span></h2>
+          <p class="lede lede--light" data-reveal style="--i:2">Combinamos creatividad, estrategia y automatización para atraer más clientes, aumentar tus ventas y fortalecer tu marca.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--outline-light btn--md" href="../index.html#servicios">Ver todos los servicios
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <ul class="tiles">
+          <li class="tile" data-reveal style="--i:1">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-camera"/></svg></span>
+            <strong>Creación de contenido</strong><small>Fotos, videos y diseño profesional.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:2">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-calendar-check"/></svg></span>
+            <strong>Manejo de redes sociales</strong><small>Publicación y crecimiento de tu comunidad.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:3">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-megaphone"/></svg></span>
+            <strong>Publicidad digital</strong><small>Campañas en Meta, TikTok, Google y más.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:4">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-bot"/></svg></span>
+            <strong>Automatización con IA</strong><small>Respuestas, mensajes y comentarios.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:1">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-leaf"/></svg></span>
+            <strong>Estrategia de marca</strong><small>Tu negocio con identidad y enfoque claro.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:2">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-bars"/></svg></span>
+            <strong>Análisis y reportes</strong><small>Resultados medibles y recomendaciones.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:3">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-palette"/></svg></span>
+            <strong>Diseño gráfico</strong><small>Posts, historias, menús, catálogos y más.</small>
+          </li>
+          <li class="tile" data-reveal style="--i:4">
+            <span class="tile__ico"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+            <strong>Asesoría y consultoría</strong><small>Te guiamos en cada paso según tus objetivos.</small>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ============ MARKETING EN ACCION (claro) ============ -->
+    <section class="action" id="accion" aria-labelledby="act-title">
+      <div class="container action__grid">
+        <div class="action__copy">
+          <p class="crumb" data-reveal>Marketing en acción</p>
+          <h2 id="act-title" class="title" data-reveal style="--i:1"><span class="line">Contenido que conecta,</span> <span class="line">en todas las plataformas.</span></h2>
+          <p class="sub" data-reveal style="--i:2">Creamos piezas de impacto que se ven bien, comunican tu propuesta y generan resultados reales en redes sociales.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--dark btn--md" href="#contacto">Explorar ejemplos
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <div class="platforms">
+          <!-- TikTok -->
+          <article class="plat plat--tiktok" data-reveal style="--i:1">
+            <div class="media media--tiktok">
+              <img class="media__art" src="assets/img/accion-tiktok.webp" width="640" height="1137" alt="" loading="lazy" decoding="async">
+              <span class="app app--tiktok" aria-hidden="true"><svg class="icon"><use href="#i-tiktok"/></svg></span>
+              <p class="media__cap">Así se prepara<br>nuestro matcha</p>
+              <p class="media__views"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg>125K</p>
+            </div>
+            <div class="plat__txt">
+              <h3>TikTok</h3>
+              <p>Videos que entretienen y atraen nuevos clientes.</p>
+              <ul class="mini">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-eye"/></svg>Más vistas</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-user-plus"/></svg>Más seguidores</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg>Más interacción</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Instagram -->
+          <article class="plat plat--insta" data-reveal style="--i:2">
+            <div class="media media--insta">
+              <span class="app app--insta" aria-hidden="true"><svg class="icon"><use href="#i-instagram"/></svg></span>
+              <img class="media__photo" src="assets/img/accion-instagram.webp" width="900" height="720" alt="" loading="lazy" decoding="async">
+              <p class="media__title">Nueva colección</p>
+              <div class="media__bar" aria-hidden="true">
+                <svg class="icon"><use href="#i-heart"/></svg><svg class="icon"><use href="#i-chat"/></svg><svg class="icon"><use href="#i-send"/></svg>
+                <svg class="icon media__save"><use href="#i-bookmark"/></svg>
+              </div>
+            </div>
+            <div class="plat__txt">
+              <h3>Instagram</h3>
+              <p>Contenido visual que fortalece tu marca.</p>
+              <ul class="mini">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>Más alcance</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg>Más clientes</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-smile"/></svg>Comunidad fiel</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Anuncios -->
+          <article class="plat plat--ads" data-reveal style="--i:3">
+            <div class="media media--ads">
+              <span class="app app--google" aria-hidden="true"><svg class="logo"><use href="#logo-google"/></svg></span>
+              <div class="ad" aria-hidden="true">
+                <p class="ad__title">Diseños que transforman tu espacio</p>
+                <img class="ad__photo" src="assets/img/accion-anuncio.webp" width="900" height="675" alt="" loading="lazy" decoding="async">
+                <span class="ad__btn">Más información</span>
+              </div>
+            </div>
+            <div class="plat__txt">
+              <h3>Anuncios</h3>
+              <p>Campañas para llevar tu negocio a más personas.</p>
+              <ul class="mini">
+                <li><svg class="icon" aria-hidden="true"><use href="#i-cursor"/></svg>Más visitas</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-message"/></svg>Más contactos</li>
+                <li><svg class="icon" aria-hidden="true"><use href="#i-cart"/></svg>Más ventas</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESO (claro) ============ -->
+    <section class="process" id="proceso" aria-labelledby="proc-title">
+      <div class="container process__grid">
+        <div class="process__copy">
+          <p class="crumb" data-reveal>Nuestro proceso</p>
+          <h2 id="proc-title" class="title" data-reveal style="--i:1"><span class="line">Un proceso simple</span> <span class="line">y efectivo.</span></h2>
+          <p class="sub" data-reveal style="--i:2">Nos encargamos de todo el proceso de marketing digital, adaptado a las necesidades de tu negocio.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step" data-reveal style="--i:1">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">1</span>
+              <svg class="icon step__ico" aria-hidden="true"><use href="#i-search"/></svg>
+              <span class="step__link" aria-hidden="true"></span>
+            </div>
+            <div class="step__txt"><h3>Analizamos tu negocio</h3><p>Conocemos tu industria, objetivos y audiencia.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:2">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">2</span>
+              <svg class="icon step__ico" aria-hidden="true"><use href="#i-bulb"/></svg>
+              <span class="step__link" aria-hidden="true"></span>
+            </div>
+            <div class="step__txt"><h3>Creamos la estrategia</h3><p>Definimos el tipo de contenido, canales y campañas.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:3">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">3</span>
+              <svg class="icon step__ico" aria-hidden="true"><use href="#i-gear"/></svg>
+              <span class="step__link" aria-hidden="true"></span>
+            </div>
+            <div class="step__txt"><h3>Implementamos</h3><p>Diseñamos, publicamos y automatizamos.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:4">
+            <div class="step__head">
+              <span class="step__num" aria-hidden="true">4</span>
+              <svg class="icon step__ico" aria-hidden="true"><use href="#i-report"/></svg>
+            </div>
+            <div class="step__txt"><h3>Medimos y optimizamos</h3><p>Te mostramos resultados y hacemos mejoras continuas.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ RESULTADOS (oscuro) ============ -->
+    <div class="panel-section panel-section--tight">
+      <section class="panel results" id="resultados" aria-labelledby="res-title">
+        <div class="panel__waves" aria-hidden="true"></div>
+
+        <div class="results__copy">
+          <p class="crumb crumb--light" data-reveal>Resultados</p>
+          <h2 id="res-title" class="title title--light" data-reveal style="--i:1"><span class="line">Más visibilidad.</span> <span class="line">Más clientes. Más ventas.</span></h2>
+          <p class="lede lede--light" data-reveal style="--i:2">Aplicamos estrategias de marketing digital que generan resultados reales para negocios como el tuyo.</p>
+          <div class="actions" data-reveal style="--i:3">
+            <a class="btn btn--outline-light btn--md" href="#contacto">Ver casos de éxito
+              <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+
+        <figure class="chart" data-chart data-reveal style="--i:1">
+          <div class="chart__head">
+            <h3 class="chart__title">Crecimiento de audiencia</h3>
+            <div class="range">
+              <label class="sr-only" for="rango">Periodo del gráfico</label>
+              <select id="rango" data-range>
+                <option value="3">Últimos 3 meses</option>
+                <option value="6" selected>Últimos 6 meses</option>
+                <option value="12">Últimos 12 meses</option>
+              </select>
+              <svg class="icon" aria-hidden="true"><use href="#i-chevron-down"/></svg>
+            </div>
+          </div>
+          <div class="chart__body">
+            <ul class="chart__y" aria-hidden="true"><li>30K</li><li>20K</li><li>10K</li><li>0</li></ul>
+            <div class="chart__plot">
+              <svg class="plot" viewBox="0 0 201 90" aria-hidden="true" data-plot>
+                <defs><linearGradient id="plot-fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs>
+                <g class="plot__grid"><path d="M0 0H201M0 30H201M0 60H201M0 90H201M0 0V90M40.2 0V90M80.4 0V90M120.6 0V90M160.8 0V90M201 0V90"/></g>
+                <path class="plot__area" d="M0 79.8L20.1 70.8L40.2 62.7L60.3 54.9L80.4 47.1L100.5 38.4L120.6 30.6L140.7 22.8L160.8 17.1L180.9 10.8L201 4.2V90H0Z"/>
+                <path class="plot__line" pathLength="1" d="M0 79.8L20.1 70.8L40.2 62.7L60.3 54.9L80.4 47.1L100.5 38.4L120.6 30.6L140.7 22.8L160.8 17.1L180.9 10.8L201 4.2"/>
+                <g class="plot__dots"><circle cx="0" cy="79.8" r="2.1"/><circle cx="20.1" cy="70.8" r="2.1"/><circle cx="40.2" cy="62.7" r="2.1"/><circle cx="60.3" cy="54.9" r="2.1"/><circle cx="80.4" cy="47.1" r="2.1"/><circle cx="100.5" cy="38.4" r="2.1"/><circle cx="120.6" cy="30.6" r="2.1"/><circle cx="140.7" cy="22.8" r="2.1"/><circle cx="160.8" cy="17.1" r="2.1"/><circle cx="180.9" cy="10.8" r="2.1"/><circle cx="201" cy="4.2" r="2.1"/></g>
+              </svg>
+              <ul class="chart__x" aria-hidden="true" data-xaxis>
+                <li style="--p:0%">Ene</li><li style="--p:20%">Feb</li><li style="--p:40%">Mar</li><li style="--p:60%">Abr</li><li style="--p:80%">May</li><li style="--p:100%">Jun</li>
+              </ul>
+            </div>
+          </div>
+          <figcaption class="sr-only" data-summary>En los últimos 6 meses la audiencia pasó de 3.4 mil a 28.6 mil personas.</figcaption>
+        </figure>
+
+        <ul class="stats" aria-label="Resultados destacados de nuestros clientes">
+          <li class="stat" data-reveal style="--i:1">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-bars"/></svg></span>
+            <span class="stat__txt"><strong data-count="150" data-prefix="+" data-suffix="%">+150%</strong><span class="stat__lbl">más alcance</span></span>
+          </li>
+          <li class="stat" data-reveal style="--i:2">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg></span>
+            <span class="stat__txt"><strong data-count="80" data-prefix="+" data-suffix="%">+80%</strong><span class="stat__lbl">más clientes potenciales</span></span>
+          </li>
+          <li class="stat" data-reveal style="--i:3">
+            <span class="ring"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg></span>
+            <span class="stat__txt"><strong data-count="200" data-prefix="+" data-suffix="%">+200%</strong><span class="stat__lbl">más interacciones</span></span>
+          </li>
+        </ul>
+
+        <figure class="quote" data-reveal style="--i:2">
+          <svg class="quote__mark" aria-hidden="true"><use href="#i-quote"/></svg>
+          <blockquote>
+            <p>“Desde que comenzamos a trabajar con Jos.IA nuestras redes se ven mucho más profesionales y hemos recibido más clientes. Todo el proceso es muy fácil y los resultados se notan.”</p>
+          </blockquote>
+          <figcaption class="quote__by">
+            <!-- IMAGEN FUTURA: reemplazar el <svg> por <img src="assets/img/carlos-mendez.webp" alt="" width="96" height="96"> -->
+            <span class="avatar" aria-hidden="true"><svg><use href="#art-carlos" width="100%" height="100%"/></svg></span>
+            <span class="quote__who"><strong>Carlos Méndez</strong><small>Dueño de Restaurante</small></span>
+            <span class="stars" role="img" aria-label="Calificación: 5 de 5 estrellas">
+              <svg aria-hidden="true"><use href="#i-star-f"/></svg><svg aria-hidden="true"><use href="#i-star-f"/></svg><svg aria-hidden="true"><use href="#i-star-f"/></svg><svg aria-hidden="true"><use href="#i-star-f"/></svg><svg aria-hidden="true"><use href="#i-star-f"/></svg>
+            </span>
+          </figcaption>
+        </figure>
+      </section>
+    </div>
+
+    <!-- ============ IDEAL PARA (claro) ============ -->
+    <section class="fit" id="negocios" aria-labelledby="fit-title">
+      <div class="container fit__grid">
+        <div class="fit__copy">
+          <p class="crumb" data-reveal>Ideal para diferentes negocios</p>
+          <h2 id="fit-title" class="title" data-reveal style="--i:1"><span class="line">Llevamos tu negocio</span> <span class="line">al siguiente nivel.</span></h2>
+          <p class="sub" data-reveal style="--i:2">Nuestras estrategias se adaptan a diferentes industrias y objetivos.</p>
+        </div>
+
+        <ul class="biz-grid">
+          <li class="biz" data-reveal style="--i:1"><svg class="icon" aria-hidden="true"><use href="#i-utensils"/></svg><strong>Restaurantes</strong><small>Más reservas</small></li>
+          <li class="biz" data-reveal style="--i:2"><svg class="icon" aria-hidden="true"><use href="#i-coffee"/></svg><strong>Cafeterías</strong><small>Más clientes</small></li>
+          <li class="biz" data-reveal style="--i:3"><svg class="icon" aria-hidden="true"><use href="#i-bag"/></svg><strong>Tiendas en línea</strong><small>Más ventas</small></li>
+          <li class="biz" data-reveal style="--i:4"><svg class="icon" aria-hidden="true"><use href="#i-heart"/></svg><strong>Clínicas</strong><small>Más pacientes</small></li>
+          <li class="biz" data-reveal style="--i:5"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><strong>Servicios locales</strong><small>Más solicitudes</small></li>
+          <li class="biz" data-reveal style="--i:6"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg><strong>Empresas</strong><small>Mayor visibilidad</small></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ CTA + FOOTER ============ -->
+  <footer class="site-footer" id="contacto">
+    <div class="panel-section panel-section--cta">
+      <div class="panel cta">
+        <div class="panel__waves" aria-hidden="true"></div>
+        <a class="brand brand--footer" href="../index.html" aria-label="Jos.IA, ir al inicio">
+          <img class="brand__mark" src="assets/img/logo-blanco.png" alt="" width="72" height="72">
+          <span class="wordmark">Jos.IA</span>
+        </a>
+
+        <div class="cta__copy">
+          <h2 id="cta-title" class="cta__title">¿Listo para hacer crecer tu negocio con marketing digital?</h2>
+          <p>Hablemos de tu proyecto y creamos una estrategia a la medida.</p>
+        </div>
+
+        <a class="btn btn--light btn--lg cta__btn" href="../index.html#contacto">Solicitar proyecto
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+
+    <div class="legal">
+      <div class="container footer__legal">
+        <p>© 2026 Jos.IA. Todos los derechos reservados.</p>
+        <div class="footer__right">
+          <ul class="legal-links">
+            <li><a href="../index.html#privacidad">Aviso de privacidad</a></li>
+            <li><a href="../index.html#terminos">Términos y condiciones</a></li>
+          </ul>
+          <ul class="social" aria-label="Redes sociales">
+            <li><a href="https://www.instagram.com/" aria-label="Instagram de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a></li>
+            <li><a href="https://www.linkedin.com/" aria-label="LinkedIn de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg></a></li>
+            <li><a href="https://www.youtube.com/" aria-label="YouTube de Jos.IA" rel="noopener" target="_blank"><svg class="icon" aria-hidden="true"><use href="#i-youtube"/></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
